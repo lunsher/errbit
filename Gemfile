@@ -81,6 +81,7 @@ group :development, :test do
 #  gem 'rpm_contrib'
 #  gem 'newrelic_rpm'
   gem 'capistrano'
+  gem 'capistrano_colors'
 end
 
 gem 'foreman', :group => :development
@@ -110,3 +111,4 @@ group :assets do
 end
 
 gem 'turbo-sprockets-rails3'
+gem 'rvm-capistrano'
