@@ -83,6 +83,7 @@ group :development, :test do
 #  gem 'rpm_contrib'
 #  gem 'newrelic_rpm'
   gem 'capistrano'
+  gem 'capistrano_colors'
 
   # better errors
   gem 'better_errors', :platform => :ruby_19
