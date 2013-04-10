@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.12'
+gem 'rails', '3.2.13'
 gem 'mongoid', '~> 2.4.10'
 gem 'mongoid_rails_migrations'
 gem 'devise', '~> 1.5.4'
@@ -8,7 +8,10 @@ gem 'haml'
 gem 'htmlentities', "~> 4.3.0"
 gem 'rack-ssl', :require => 'rack/ssl'   # force SSL
 
-gem 'useragent', '~> 0.3.1'
+# Remove this when tilt 1.3.7 is released.
+gem 'tilt', :git => 'git://github.com/rtomayko/tilt'
+
+gem 'useragent', '~> 0.4.16'
 gem 'inherited_resources'
 gem 'SystemTimer', :platform => :ruby_18
 gem 'actionmailer_inline_css', "~> 1.3.0"
